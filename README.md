@@ -9,6 +9,7 @@
 - 📱 **완전 반응형**: 모든 디바이스에서 완벽하게 작동
 - ⚡ **빠른 성능**: Vite를 사용한 최적화된 빌드
 - 🎯 **섹션 구성**: Hero, About, Skills, Projects, Contact
+- 🎵 **비트박스 런치패드**: Hero 섹션에 인터랙티브한 비트박스 런치패드 포함
 
 ## 🛠️ 기술 스택
 
@@ -17,6 +18,7 @@
 - **Framer Motion** - 애니메이션
 - **React Icons** - 아이콘
 - **CSS3** - 스타일링
+- **Web Audio API** - 비트박스 사운드 생성
 
 ## 🚀 시작하기
 
@@ -52,15 +54,16 @@ npm run preview
 amazing-portfolio/
 ├── src/
 │   ├── components/
-│   │   ├── Hero.jsx          # 메인 히어로 섹션
+│   │   ├── Hero.jsx          # 메인 히어로 섹션 (비트박스 런치패드)
 │   │   ├── About.jsx         # 소개 섹션
-│   │   ├── Skills.jsx        # 기술 스택 섹션
-│   │   ├── Projects.jsx     # 프로젝트 섹션
-│   │   ├── Contact.jsx      # 연락처 섹션
-│   │   └── Navbar.jsx       # 네비게이션 바
-│   ├── App.jsx              # 메인 앱 컴포넌트
-│   ├── main.jsx             # 진입점
-│   └── index.css            # 전역 스타일
+│   │   ├── Skills.jsx       # 기술 스택 섹션
+│   │   ├── Projects.jsx      # 프로젝트 섹션
+│   │   ├── Contact.jsx       # 연락처 섹션
+│   │   ├── Footer.jsx        # 푸터
+│   │   └── Navbar.jsx        # 네비게이션 바
+│   ├── App.jsx               # 메인 앱 컴포넌트
+│   ├── main.jsx              # 진입점
+│   └── index.css             # 전역 스타일
 ├── index.html
 ├── package.json
 └── vite.config.js
@@ -87,9 +90,8 @@ amazing-portfolio/
 
 ## 📝 라이선스
 
-이 프로젝트는 자유롭게 사용하고 수정할 수 있습니다.
+이 프로젝트는 오직 저만 사용할 수 있습니다. 무단 사용 및 복제를 금지합니다.
 
 ---
 
 Made with ❤️ and React
-
